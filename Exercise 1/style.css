@@ -1,0 +1,287 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 15, 15, 0.7);
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #bd6d39, #964b00);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  opacity: 0.85;
+}
+
+#features {
+  padding: 60px 20px;
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+#features h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #e2e2e2;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background-color: #292929;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #f2f2f2;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+#appointment {
+  padding: 50px 20px;
+  background-color: #161616;
+  text-align: center;
+}
+
+#appointment h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #e8e8e8;
+}
+
+.cta-btn-secondary {
+  padding: 10px 25px;
+  background: linear-gradient(135deg, #7e3f20, #503017);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.cta-btn-secondary:hover {
+  opacity: 0.9;
+}
+
+footer {
+  background: #0f0f0f;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background-color: #111;
+  color: #eee;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #bd6d39;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f1a25e;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 15, 15, 0.7);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #bd6d39, #964b00);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  opacity: 0.85;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1a1a1a;
+  padding: 20px 15px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .footer-content p {
+  margin-bottom: 5px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    background-color: #222;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
