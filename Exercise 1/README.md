@@ -3,6 +3,8 @@
 ## 📌 Aim
 To create a basic HTTP server using Node.js without using the Express framework, which serves static HTML and CSS files to demonstrate manual file routing and server-side handling.
 
+👉 **[Click here to view the live dashboard](https://sujithakc.github.io/FSF-Lab/Exercise%201/)**
+
 ---
 
 ## 🗂️ Folder Structure
