@@ -6,14 +6,13 @@ To create a basic HTTP server using Node.js without using the Express framework,
 ---
 
 ## 🗂️ Folder Structure
-
+```
 Exercise_1/
 ├── server.js      # Core server file using Node's built-in modules
 ├── index.html     # Static landing page
 ├── style.css      # Styling for the landing page
 └── README.md      # Documentation file
-
-
+```
 ---
 
 ## ⚙️ How to Run This Project
