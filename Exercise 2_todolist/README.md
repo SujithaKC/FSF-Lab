@@ -72,8 +72,10 @@ A responsive and visually enhanced To-Do app was successfully built using Expres
 ```bash
 npm install
 node server.js
+```
 
 ---
+
 
 ## 🔒 Author
 
