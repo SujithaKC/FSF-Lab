@@ -1,6 +1,6 @@
 # Exercise 2 - Express.js with Handlebars and File Storage
 
-## ✅ Aim
+## Aim
 
 To create a Node.js server using Express that stores data from a form into a JSON file and displays the data on another page using Handlebars templating engine.
 
@@ -72,3 +72,11 @@ A responsive and visually enhanced To-Do app was successfully built using Expres
 ```bash
 npm install
 node server.js
+
+---
+
+## 🔒 Author
+
+**Sujitha K C**  
+MCA Student | Full Stack Developer  
+[GitHub Profile](https://github.com/SujithaKC)
