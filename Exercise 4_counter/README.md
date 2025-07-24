@@ -61,3 +61,9 @@ No backend or build setup needed. Just open `index.html` in a web browser:
 ```bash
 start index.html
 ```
+---
+## 🔒 Author
+
+**Sujitha K C**  
+MCA Student | Full Stack Developer  
+[GitHub Profile](https://github.com/SujithaKC)
